@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CueTether help: running a workshop timer, adjusting an agenda, recovery, exports, deletion, notifications, and contacting support.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <link rel="canonical" href="https://lixia-jp.github.io/cuetether-support/support.html">
+  <title>Support — CueTether</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="en" href="https://lixia-jp.github.io/cuetether-support/support.html">
+  <link rel="alternate" hreflang="ja" href="https://lixia-jp.github.io/cuetether-support/ja/support.html">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="wrap site-header">
+  <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>CueTether</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">The app</a>
+    <a href="support.html" aria-current="page">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a class="language" href="ja/support.html" lang="ja" hreflang="ja" aria-label="日本語で読む">日本語</a>
+  </nav>
+</header>
+<main class="wrap document" id="main">
+
+<p class="eyebrow">CUETETHER</p><h1>Support</h1><p class="lead">A practical guide to your agenda, timer, and saved sessions.</p>
+<div class="notice"><p><strong>Before release</strong><br>CueTether is being prepared for the App Store. The guide below describes the initial release. There is no public App Store download yet.</p></div>
+<h2>Running a session</h2>
+<details open><summary>How do I use an agenda?</summary><p>Create an agenda and add its segments. Set each segment’s planned duration, minimum duration, and protection setting. Save the agenda, start a session, and move to the next segment yourself when the current activity ends. You can edit, reorder, or duplicate saved agendas for later use.</p></details>
+<details><summary>What happens when a segment runs over?</summary><p>The current segment continues until you choose to advance. CueTether shows how the remaining plan compares with the session’s fixed finish target. A rebalancing proposal shortens only future segments, in proportion to the time they can give up. Protected segments and minimum durations are respected. Nothing changes until you apply the proposal.</p></details>
+<details><summary>What if the remaining agenda cannot fit?</summary><p>CueTether shows the time that still cannot fit after all permitted reductions. It does not silently shorten protected segments, go below a minimum, or promise the original finish time can be met. Decide how to handle the remaining activities with your participants.</p></details>
+<details><summary>Does pause move the finish time?</summary><p>No. Pause stops the active segment’s elapsed timer; the original finish target stays fixed. A pause uses some of the time available before that target, so the remaining plan may need adjusting when you resume.</p></details>
+<details><summary>Can I close the app or lock the screen?</summary><p>The session state is saved locally. Reopening the app recovers the saved session and calculates elapsed time from its recorded timing state. A running session continues to accrue time; a paused session stays paused. Keep the device’s date and time correct. Notification delivery is controlled by the operating system and is not an exact alarm guarantee.</p></details>
+<h2>Saved data and purchases</h2>
+<details><summary>How do I export a record?</summary><p>Open a completed session in history and choose its text or CSV export. Use the system sharing interface to select a destination. Exported files can contain agenda and segment names: check them before sharing. An export is a timing report, not an importable backup of the app.</p></details>
+<details><summary>How do I delete data?</summary><p>Delete unwanted saved agendas and session history in the app. To remove all local app data, delete the app from the device. Offloading the app may preserve its data. Copies you exported and data in device backups must be managed separately at those destinations.</p></details>
+<details><summary>Will my data appear on another device?</summary><p>CueTether stores data locally and does not sync between devices. Recovery after reopening the same installation is different from restoring a device backup. Apple’s backup and restore settings determine whether local app data is included in a device restoration.</p></details>
+<details><summary>How do I restore my purchase?</summary><p>CueTether is planned as a paid app, without in-app purchases or subscriptions. Use the Apple Account that bought the app to redownload it from the App Store, subject to Apple’s availability and account rules. There is no separate in-app purchase to restore. Redownloading the app does not by itself restore your locally saved agendas. For billing or refund requests, use <a href="https://reportaproblem.apple.com/" rel="noopener noreferrer">Apple’s purchase support</a>.</p></details>
+<h2>Reminders</h2>
+<details><summary>Why did a reminder not appear?</summary><p>Reminders are optional local notifications. Check the app’s reminder setting and the notification permission in Settings. Focus, notification summaries, silent mode, and other device settings can affect whether or how a reminder appears. The timer remains usable if you decline notification permission. CueTether cannot override system restrictions.</p></details>
+<h2>Report a problem</h2><p>Operated by Ryo Nagaoka.</p><p>For a general question or a reproducible problem, open a GitHub issue. A GitHub account is required. Include the app version, device model, iOS or iPadOS version, the steps taken, and what you expected to happen. Use made-up agenda names when describing a problem.</p><p class="notice"><strong>GitHub issues are public.</strong> Do not post personal details, participant names, meeting content, exports, passwords, or payment information. If a screenshot is useful, remove all private content first.</p><p><a class="support-link" href="https://github.com/lixia-jp/cuetether-support/issues/new?template=bug_report.md" rel="noopener noreferrer">Open a public support issue</a></p><p class="quiet">Replies appear on the issue. This channel does not provide private support or a guaranteed response time.</p>
+</main>
+<footer class="wrap site-footer"><p>© 2026 Ryo Nagaoka · CueTether<br>A considered pace for your workshop</p><nav aria-label="Footer navigation"><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav></footer>
+</body>
+</html>
